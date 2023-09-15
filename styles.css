@@ -8,33 +8,38 @@
 body { 
     height: 100vh;
     background-color: aliceblue;
-    display:flex;
-    flex-direction: column;
+    overflow-y: scroll;
 }
 
 
-.header {
+/* .header {
     margin-bottom: auto;
 }
 
 .footer {
     margin-top: auto;
+} */
+
+.intro-section, .info-section, .quote-section {
+    height: 300px;
+    flex-shrink: 0;
 }
 
 
 .intro-section {
     background-color: rgb(48, 45, 61);
     color: white;
-    height: 350px;
+
     padding: 0 150px;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-self: flex-start;
-    margin-bottom: 50px;
+    
+
 }
 
 .header-links {
@@ -45,15 +50,17 @@ body {
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .hero-text-subsection {
-    height: 350px;
     width: 450px;
 }
 .info-section {
     text-align: center;
-    height: 300px;
     padding: 50px;
 }
 
@@ -81,4 +88,17 @@ body {
 
 .quote-section {
     background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-attribution {
+    margin-left: auto;
 }
