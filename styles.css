@@ -141,4 +141,9 @@ body {
 
 .footer {
     background-color: rgb(48, 45, 61);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
