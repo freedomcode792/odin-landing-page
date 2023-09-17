@@ -89,7 +89,9 @@ body {
 
 .card-image {
     border: 4px solid rgb(149, 149, 255);
-    border-radius: 5%;
+    border-radius: 5px;
+    width: 130px;
+    height: 160px;
 }
 
 .quote-section {
@@ -107,4 +109,36 @@ body {
 
 .quote-attribution {
     margin-left: auto;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card {
+    width: 900px;
+    height: 50px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+    background-color: rgb(72, 115, 255);
+    color: white;
+    border-radius: 8px;
+}
+
+.action-button {
+    font-weight: bold;
+    padding: 5px 30px;
+    background-color: rgb(72, 115, 255);
+    color: white;;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: rgb(48, 45, 61);
 }
