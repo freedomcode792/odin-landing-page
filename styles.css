@@ -49,6 +49,8 @@ body {
 
 }
 
+
+
 .header-links {
     display: flex;
     gap: 20px;
@@ -82,6 +84,7 @@ body {
 .info-section {
     text-align: center;
     padding: 50px;
+    height: 450px;
 }
 
 .info-heading {
@@ -92,20 +95,22 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 50px;
 }
 
 .card {
-    width: 170px;
-    height: 200px;
-    background-color: beige;
+    width: 180px;
+    height: 250px;
+    border: 10px solid rgb(149, 149, 255);
+    background-color: blanchedalmond;
+    border-radius: 10px;
 }
 
 .card-image {
-    border: 4px solid rgb(149, 149, 255);
-    border-radius: 5px;
-    width: 130px;
-    height: 160px;
+    
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .quote-section {
@@ -119,6 +124,7 @@ body {
     width: 600px;
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .quote-attribution {
@@ -141,7 +147,8 @@ body {
     padding: 40px 90px;
     background-color: rgb(72, 115, 255);
     color: white;
-    border-radius: 8px;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .action-button {
@@ -162,6 +169,11 @@ body {
     justify-content: center;
 }
 
+
+button {
+    font-size: 16px;
+}
+
 /*assignment styles*/
 
 .intro-section, .footer {
@@ -172,6 +184,7 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+
 }
 
 .hero-text, .header-links {
@@ -207,8 +220,21 @@ button, .action-card {
 
 .hero-image {
     height: 300px;
+    border-radius: 20px;
 }
 
 .header-logo {
-    height: 75px;
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+}
+
+
+
+a:visited {
+    color:rgb(255, 171, 255);
+}
+
+a:active {
+    color: red;
 }
