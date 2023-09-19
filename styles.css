@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body { 
@@ -147,7 +148,7 @@ body {
     font-weight: bold;
     padding: 5px 30px;
     background-color: rgb(72, 115, 255);
-    color: white;;
+    color: white;
     border: 2px solid white;
     border-radius: 8px;
 }
@@ -161,3 +162,53 @@ body {
     justify-content: center;
 }
 
+/*assignment styles*/
+
+.intro-section, .footer {
+    background-color: #1F2937;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-text, .header-links {
+    font-size: 18px;  
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button, .action-card {
+    background-color: #3882F6;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic; 
+    color: #1F2937;
+}
+
+.hero-image {
+    height: 300px;
+}
+
+.header-logo {
+    height: 75px;
+}
