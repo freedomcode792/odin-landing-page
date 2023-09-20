@@ -229,7 +229,9 @@ button, .action-card {
     width: auto;
 }
 
-
+a {
+    color: cyan;
+}
 
 a:visited {
     color:rgb(255, 171, 255);
